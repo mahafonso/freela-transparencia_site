@@ -1,0 +1,150 @@
+.main {
+	background: #ffffff;
+	box-sizing: border-box;
+	color: #717171;
+	margin: 0 auto;
+	padding: 50px 30px;
+	width: 1080px;
+
+	@media screen and (max-width:768px) { 
+		padding: 30px 15px;
+		width: 100%; 
+	}
+
+	div { box-sizing: border-box; }
+
+	p {
+		margin: 0;
+		padding: 0;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.title {
+		color: #717171;
+		font-size: 26px;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+
+	.text {
+		color: #717171;
+		font-size: 16px;
+	}
+}
+
+.projetos-atuais {
+	overflow: hidden;
+
+	.title { margin-bottom: 20px; }
+
+	.text {
+		color: #000000;
+		font-size: 14px;
+	}
+
+	.projetos {
+		margin-top: 50px;
+
+		.box {
+			display: inline-block;
+			float: left;
+			height: 375px;
+			margin: 5px 15px;
+			padding: 40px;
+			transition: background .3s linear;
+			width: 490px;
+
+			@media screen and (max-width:768px) { 
+				margin: 10px 0;
+				padding: 20px;
+				width: 100%; 
+			}
+
+			.logo { 
+				margin-bottom: 40px; 
+
+				@media screen and (max-width:768px) { 
+					img { width: 100%; }
+				}
+			}
+
+			.text {
+				font-size: 24px;
+				font-weight: 600;
+
+				@media screen and (max-width:768px) { font-size: 24px; }
+			}
+
+			&.ta-de-pe {
+				background: #05b59d url('../img/bg/bg-ta-de-pe.jpg');
+				background-size: cover;
+				height: 760px;
+				margin-left: 0;
+
+				&:hover { background: #05b59d; }
+
+				@media screen and (max-width:768px) { height: 375px; }
+			}
+
+			&.achados-pedidos {
+				background: #75b343 url('../img/bg/bg-achados-pedidos.jpg');
+				background-size: cover;
+				margin-right: 0;
+
+				&:hover { background: #75b343; }
+			}
+
+			&.meritissimos {
+				background: #f47325 url('../img/bg/bg-meritissimos.jpg');
+				background-size: cover;
+				margin-right: 0;
+
+				&:hover { background: #f47325; }
+			}
+
+			&.excelencias {
+				background: #ffcb08 url('../img/bg/bg-excelencias.jpg');
+				background-size: cover;
+				margin-left: 0;
+
+				&:hover { background: #ffcb08; }
+			}
+
+			&.as-claras {
+				background: #f99d22 url('../img/bg/bg-as-claras.jpg');
+				background-size: cover;
+				margin-right: 0;
+
+				&:hover { background: #f99d22; }
+			}
+		}
+	}
+}
+
+.projetos-desativados {
+	margin-top: 50px;
+
+	.title { margin-bottom: 20px; }
+
+	ul {
+		li {
+			margin: 20px 0;
+
+			&:first-child { margin-top: 0; }
+
+			&:last-child { margin-bottom: 0; }
+
+			.title { 
+				font-size: 22px;
+				font-weight: bold;
+				margin-bottom: 5px;
+				text-transform: initial; 
+			}
+		}
+	}
+}

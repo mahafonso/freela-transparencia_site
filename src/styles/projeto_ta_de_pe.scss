@@ -1,0 +1,367 @@
+.main {
+	background: #ffffff;
+	box-sizing: border-box;
+	color: #717171;
+	margin: 0 auto;
+	padding: 0;
+	width: 1080px;
+
+	@media screen and (max-width:768px) { 
+		padding: 30px 15px;
+		width: 100%; 
+	}
+
+	section { 
+		box-sizing: border-box; 
+		text-align: center;
+		padding: 40px 0;
+	}
+
+	div { box-sizing: border-box; }
+
+	p {
+		margin: 0;
+		padding: 0;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.destaque {
+		background: transparent;
+		font-size: 28px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.text {
+		color: #000000;
+		font-size: 14px;
+	}
+}
+
+.descricao {
+	padding-bottom: 0 !important;
+	position: relative;
+
+	&>div {
+		color: #000000;
+		display: inline-block;
+		padding: 0;
+		text-align: left;
+		vertical-align: top;
+		width: 45%;
+	}
+
+	.destaque {
+		display: block;
+		margin: 20px 0;
+		text-transform: lowercase;
+	}
+
+	.hashtag {
+		display: block;
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 50px;
+		margin-top: 30px;
+	}
+
+	a {
+		display: inline-block;
+		margin-top: 50px;
+	}
+
+	.imagem { text-align: center; }
+
+	.line {
+		bottom: 45px;
+		display: block;
+		left: 0;
+		position: absolute;
+	}
+}
+
+.funcionamento {
+	padding-top: 0 !important;
+	padding-bottom: 10px !important;
+
+	&>div {
+		color: #000000;
+		display: inline-block;
+		padding: 0;
+		text-align: left;
+		vertical-align: top;
+		width: 45%;
+	}
+
+	.destaque {
+		color: #d97143;
+		display: block;
+		margin-bottom: 45px;
+		padding-left: 80px;
+		position: relative;
+
+		&:before {
+			background: url('../img/icon-tijolo.png') no-repeat;
+			content: '';
+			display: block;
+			height: 40px;
+			left: 0;
+			position: absolute;
+			top: 15px;
+			width: 50px;
+		}
+	}
+
+	.text {
+		display: block;
+		font-size: 16px;
+		margin: 30px 0;
+		padding-left: 80px;
+		position: relative;
+
+		&:before {
+			background: #80a997;
+			border-radius: 5px;
+			content: '';
+			display: block;
+			height: 40px;
+			left: 0;
+			position: absolute;
+			top: 15px;
+			width: 40px;
+		}
+
+		&:after {
+			color: #ffffff;
+			content: '1';
+			display: block;
+			font-size: 24px;
+			font-weight: bold;
+			left: 14px;
+			position: absolute;
+			top: 18px;
+		}
+
+		&:last-child { 
+			margin-bottom: 0; 
+
+			&:before { top: -8px; }
+
+			&:after { 
+				content: '2'; 
+				top: -5px;
+			}
+		}
+	}
+
+	.imagem { text-align: center; }
+}
+
+.impacto {
+	padding-top: 80px !important;
+	position: relative;
+
+	.imagem-inicial {
+		left: 50%;
+		position: absolute;
+		top: -70px;
+		transform: translateX(-50%);
+	}
+
+	.destaque {
+		color: #d97143;
+		display: inline-block;
+		margin-bottom: 45px;
+		padding-left: 80px;
+		position: relative;
+
+		&:before {
+			background: url('../img/icon-tijolo.png') no-repeat;
+			content: '';
+			display: block;
+			height: 40px;
+			left: 0;
+			position: absolute;
+			top: 2px;
+			width: 50px;
+		}
+	}
+
+	.box {
+		background: #80a997;
+		border: 2px solid #d7d7d7;
+		border-radius: 5px;
+		margin: 0 auto;
+		padding: 40px 20px;
+		text-align: left;
+		width: 475px;
+
+		.text { font-size: 18px; }
+	}
+
+	.passos {
+		&>div {
+			display: inline-block;
+			margin: 40px 30px;
+			vertical-align: top;
+			width: 330px;
+
+			&:first-child { margin-left: 0; }
+
+			&:last-child { margin-right: 0; }
+		}
+
+		.text { 
+			display: block;
+			font-size: 18px;
+			margin-top: 20px;
+		}
+	}
+}
+
+.financiamento {
+	background: #f7b24d;
+	margin-bottom: 40px;
+
+	.destaque { color: #d97143; }
+
+	.text {
+		display: block;
+		margin: 30px 0;
+
+		a { 
+			font-weight: bold; 
+			text-decoration: underline;
+		}
+	}
+}
+
+.parceiros {
+	background: #80a997;
+	text-align: center;
+
+	.destaque { color: #d97143; }
+
+	.text {
+		display: block;
+		margin: 30px 0;
+	}
+
+	.logo-crea {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.logo-engenheiros {
+		display: block;
+		margin: 30px auto;
+	}
+
+	.locais {
+		padding: 0;
+
+		.local {
+			color: #000000;
+		}
+	}
+}
+
+.faq {
+	background: #ffffff;
+	padding: 40px 60px !important;
+
+	.destaque { color: #d97143; }
+
+	ul { 
+		margin-top: 30px; 
+
+		li {
+			background: #e3e3e3;
+			border-radius: 5px;
+			box-sizing: border-box;
+			cursor: pointer;
+			display: inline-block;
+			margin: 5px 0;
+			padding: 10px 15px;
+			position: relative;
+			text-align: left;
+			width: 100%;
+
+			&:first-child { margin-top: 0; }
+
+			&:last-child { margin-bottom: 0; }
+
+			&:before {
+				background: url('../img/icon-plus.png') no-repeat;
+				background-size: cover;
+				content: '';
+				display: inline-block;
+				height: 30px;
+				right: 15px;
+				position: absolute;
+				top: 6px;
+				transition: background .3s linear;
+				width: 30px;
+			}
+
+			&.active {
+				&:before { 
+					background: url('../img/icon-minus.png') no-repeat; 
+					background-size: cover;
+				}
+			}
+
+			.title {
+				color: #000000;
+				font-size: 16px;
+			}
+
+			.text { 
+				color: #8f8e8e; 
+				display: none;
+				margin-top: 5px;
+			}
+		}
+	}
+}
+
+.app {
+	background: #80a997;
+
+	.destaque {
+		color: #d97143;
+		margin-bottom: 40px;
+	}
+}
+
+.contato {
+	background: #ffffff;
+
+	.destaque { color: #d97143; }
+
+	.text {
+		&:nth-child(2) {
+			display: block;
+			margin: 20px 0;
+		}
+
+		a {
+			font-size: 14px;
+			font-weight: bold;
+		}
+	}
+}
+
+.bottom {
+	background-size: cover;
+	background: url('../img/bg/bottom.jpg') no-repeat;
+	display: inline-block;
+	height: 138px;
+	padding: 0 !important;
+	width: 100%;
+}
