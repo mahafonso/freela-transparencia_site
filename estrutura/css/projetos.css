@@ -1,0 +1,150 @@
+﻿/*pagina de todos os projetos*/
+.main {
+    background: #ffffff;
+    box-sizing: border-box;
+    color: #717171;
+    margin: 0 auto;
+    padding: 50px 30px;
+    width: 1080px
+}
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 30px 15px;
+        width: 100%
+    }
+}
+.main div {
+    box-sizing: border-box
+}
+.main p {
+    margin: 0;
+    padding: 0
+}
+.main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+.main .title {
+    color: #717171;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase
+}
+.main .text {
+    color: #717171;
+    font-size: 16px
+}
+.projetos-atuais {
+    overflow: hidden
+}
+.projetos-atuais .title {
+    margin-bottom: 20px
+}
+.projetos-atuais .text {
+    color: #000000;
+    font-size: 14px
+}
+.projetos-atuais .projetos {
+    margin-top: 50px
+}
+.projetos-atuais .projetos .box {
+    display: inline-block;
+    float: left;
+    height: 195px;
+    margin: 5px 15px;
+    padding: 40px;
+    transition: background .3s linear;
+    width: 490px
+}
+@media screen and (max-width: 768px) {
+    .projetos-atuais .projetos .box {
+        margin: 10px 0;
+        padding: 20px;
+        width: 100%
+    }
+}
+.projetos-atuais .projetos .box .logo {
+    margin-bottom: 20px
+}
+@media screen and (max-width: 768px) {
+    .projetos-atuais .projetos .box .logo img {
+        width: 100%
+    }
+}
+.projetos-atuais .projetos .box .text {
+    font-size: 16px;
+    font-weight: 600
+}
+@media screen and (max-width: 768px) {
+    .projetos-atuais .projetos .box .text {
+        font-size: 24px
+    }
+}
+.projetos-atuais .projetos .box.ta-de-pe {
+    background: #05b59d url("../img/bg/bg-ta-de-pe.jpg");
+    background-size: cover;
+    height: 400px;
+    margin-left: 0
+}
+.projetos-atuais .projetos .box.ta-de-pe:hover {
+    background: #05b59d
+}
+@media screen and (max-width: 768px) {
+    .projetos-atuais .projetos .box.ta-de-pe {
+        height: 375px
+    }
+}
+.projetos-atuais .projetos .box.achados-pedidos {
+    background: #75b343 url("../img/bg/bg-achados-pedidos.jpg");
+    background-size: cover;
+    margin-right: 0
+}
+.projetos-atuais .projetos .box.achados-pedidos:hover {
+    background: #75b343
+}
+.projetos-atuais .projetos .box.meritissimos {
+    background: #f47325 url("../img/bg/bg-meritissimos.jpg");
+    background-size: cover;
+    margin-right: 0
+}
+.projetos-atuais .projetos .box.meritissimos:hover {
+    background: #f47325
+}
+.projetos-atuais .projetos .box.excelencias {
+    background: #ffcb08 url("../img/bg/bg-excelencias.jpg");
+    background-size: cover;
+    margin-left: 0
+}
+.projetos-atuais .projetos .box.excelencias:hover {
+    background: #ffcb08
+}
+.projetos-atuais .projetos .box.as-claras {
+    background: #f99d22 url("../img/bg/bg-as-claras.jpg");
+    background-size: cover;
+    margin-right: 0
+}
+.projetos-atuais .projetos .box.as-claras:hover {
+    background: #f99d22
+}
+.projetos-desativados {
+    margin-top: 50px
+}
+.projetos-desativados .title {
+    margin-bottom: 20px
+}
+.projetos-desativados ul li {
+    margin: 20px 0
+}
+.projetos-desativados ul li:first-child {
+    margin-top: 0
+}
+.projetos-desativados ul li:last-child {
+    margin-bottom: 0
+}
+.projetos-desativados ul li .title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: initial
+}

@@ -1,0 +1,339 @@
+﻿/*projeto ta de pe*/
+.main {
+    background: #ffffff;
+    box-sizing: border-box;
+    color: #717171;
+    margin: 0 auto;
+    padding: 0;
+    width: 1080px
+}
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 30px 15px;
+        width: 100%
+    }
+}
+.main section {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 40px 0
+}
+.main div { 
+    box-sizing: border-box; 
+}
+.main p {
+    margin: 0;
+    padding: 0
+}
+.main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+.main .destaque {
+    background: transparent;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase
+}
+.main .text {
+    color: #000000;
+    font-size: 14px
+}
+.descricao {
+    padding-bottom: 0 !important;
+    position: relative
+}
+.descricao>div {
+    color: #000000;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    width: 45%
+}
+.descricao .destaque {
+    display: block;
+    margin: 20px 0;
+    text-transform: lowercase
+}
+.descricao .hashtag {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 30px
+}
+.descricao a {
+    display: inline-block;
+    margin-top: 50px
+}
+.descricao .imagem {
+    text-align: center
+}
+.descricao .line {
+    bottom: 45px;
+    display: block;
+    left: 0;
+    position: absolute
+}
+.funcionamento {
+    display: table;
+    padding-top: 0 !important;
+    padding-bottom: 10px !important
+}
+.funcionamento>div {
+    color: #000000;
+    display: table-cell;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    width: 45%
+}
+.funcionamento .texto{
+    vertical-align: middle;
+    padding-bottom: 100px;
+}
+.funcionamento .destaque {
+    color: #d97143;
+    display: block;
+    margin-bottom: 45px;
+    padding-left: 80px;
+    position: relative
+}
+.funcionamento .destaque:before {
+    background: url("../img/icon-tijolo.png") no-repeat;
+    content: '';
+    display: block;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 15px;
+    width: 50px
+}
+.funcionamento .text {
+    display: block;
+    font-size: 16px;
+    margin: 30px 0;
+    padding-left: 80px;
+    position: relative
+}
+.funcionamento .text:before {
+    background: #80a997;
+    border-radius: 5px;
+    content: '';
+    display: block;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 15px;
+    width: 40px
+}
+.funcionamento .text:after {
+    color: #ffffff;
+    content: '1';
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    left: 14px;
+    position: absolute;
+    top: 18px
+}
+.funcionamento .text:last-child {
+    margin-bottom: 0
+}
+.funcionamento .text:last-child:before {
+    top: -8px
+}
+.funcionamento .text:last-child:after {
+    content: '2';
+    top: -5px
+}
+.funcionamento .imagem {
+    text-align: center
+}
+.impacto {
+    padding-top: 80px !important;
+    position: relative
+}
+.impacto .imagem-inicial {
+    left: 50%;
+    position: absolute;
+    top: -70px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+.impacto .destaque {
+    color: #d97143;
+    display: inline-block;
+    margin-bottom: 45px;
+    padding-left: 80px;
+    position: relative
+}
+.impacto .destaque:before {
+    background: url("../img/icon-tijolo.png") no-repeat;
+    content: '';
+    display: block;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 50px
+}
+.impacto .box {
+    background: #80a997;
+    border: 2px solid #d7d7d7;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: left;
+    width: 465px
+}
+.impacto .box .text {
+    font-size: 20px
+}
+.impacto .passos>div {
+    display: inline-block;
+    margin: 40px 30px;
+    vertical-align: top;
+    width: 330px
+}
+.impacto .passos>div:first-child {
+    margin-left: 0
+}
+.impacto .passos>div:last-child {
+    margin-right: 0
+}
+.impacto .passos .text {
+    display: block;
+    font-size: 18px;
+    margin-top: 20px
+}
+.financiamento {
+    background: #f7b24d;
+    margin-bottom: 40px
+}
+.financiamento .destaque {
+    color: #d97143
+}
+.financiamento .text {
+    display: block;
+    font-size: 18px;
+    margin: 30px 0
+}
+.financiamento .text a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline
+}
+.parceiros {
+    background: #80a997;
+    text-align: center
+}
+.parceiros .destaque {
+    color: #d97143
+}
+.parceiros .text {
+    display: block;
+    margin: 30px 0
+}
+.parceiros .text a {
+    font-weight: bold;
+    text-decoration: underline
+}
+.parceiros .logo-crea {
+    display: block;
+    margin: 0 auto
+}
+.parceiros .logo-engenheiros {
+    display: block;
+    margin: 30px auto
+}
+.parceiros .locais {
+    padding: 0
+}
+.parceiros .locais .local {
+    color: #000000
+}
+.faq {
+    background: #ffffff;
+    padding: 40px 60px !important
+}
+.faq .destaque {
+    color: #d97143
+}
+.faq ul {
+    margin-top: 30px
+}
+.faq ul li {
+    background: #e3e3e3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px 0;
+    padding: 10px 15px;
+    position: relative;
+    text-align: left;
+    width: 100%
+}
+.faq ul li:first-child {
+    margin-top: 0
+}
+.faq ul li:last-child {
+    margin-bottom: 0
+}
+.faq ul li:before {
+    background: url("../img/icon-plus.png") no-repeat;
+    background-size: cover;
+    content: '';
+    display: inline-block;
+    height: 30px;
+    right: 15px;
+    position: absolute;
+    top: 6px;
+    transition: background .3s linear;
+    width: 30px
+}
+.faq ul li.active:before {
+    background: url("../img/icon-minus.png") no-repeat;
+    background-size: cover
+}
+.faq ul li .title {
+    color: #000000;
+    font-size: 16px
+}
+.faq ul li .text {
+    color: #545454;
+    display: none;
+    margin-top: 5px
+}
+.app {
+    background: #80a997
+}
+.app .destaque {
+    color: #d97143;
+    margin-bottom: 40px
+}
+.contato {
+    background: #ffffff
+}
+.contato .destaque {
+    color: #d97143
+}
+.contato .text:nth-child(2) {
+    display: block;
+    margin: 20px 0
+}
+.contato .text a {
+    font-size: 14px;
+    font-weight: bold
+}
+.bottom {
+    background-size: cover;
+    background: url("../img/bg/bottom.jpg") no-repeat;
+    display: inline-block;
+    height: 138px;
+    padding: 0 !important;
+    width: 100%
+}
